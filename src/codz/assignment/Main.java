@@ -20,9 +20,6 @@ public class Main {
         pizza = new Pepperoni(pizza);
         pizza = new Beef(pizza);
         System.out.println(pizza);
-
-
-
         pizzas[0] = pizza;
 
         ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("A.txt"));

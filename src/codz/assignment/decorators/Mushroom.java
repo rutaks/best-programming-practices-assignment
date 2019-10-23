@@ -3,6 +3,7 @@ package codz.assignment.decorators;
 import codz.assignment.models.Pizza;
 
 public class Mushroom extends ToppingsDecorator{
+    private static final long serialVersionUID = 1L;
     Pizza pizza;
 
     public Mushroom(Pizza pizza) {
